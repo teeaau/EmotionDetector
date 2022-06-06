@@ -1,12 +1,15 @@
 # EmotionDetector
 
-## Spark 2.4.8
-## Hadoop 2.7
+### Spark 2.4.8
+### Hadoop 2.7
 
-## Run docker-compose file
-[docker-compose -f docker-compose/kafkaui.yml -d]()
+### Run docker-compose file
 
-## Run file SendFrame.py: Send frame to Kafka
+```
+docker-compose -f docker-compose/kafkaui.yml -d]
+```
 
-## While SendFrame.py is running, run Streaming.py with Jupiter Notebook (Ctrl + Enter)
+### Run file SendFrame.py: Send frame to Kafka
+
+### While SendFrame.py is running, run Streaming.py with Jupiter Notebook (Ctrl + Enter)
 
